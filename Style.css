@@ -1,0 +1,71 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+/* Encabezado */
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Navegación */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* Contenido principal */
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.product {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.product img {
+  width: 200px;
+  height: auto;
+}
+
+/* Barra lateral */
+aside {
+  width: 25%;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.cart {
+  /* Estilos del carrito de compras */
+}
+
+/* Pie de página */
+footer {
+  background-color: #333;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
